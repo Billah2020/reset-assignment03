@@ -1,0 +1,274 @@
+.section {
+    height: 600px;
+}
+
+.header-area {
+    background: #264653;
+}
+
+.nav-item {
+    font-size: 20px;
+    color: 000;
+    padding: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.first-part h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: poppins;
+    color: #fff;
+    font-weight: 600;
+}
+
+.first-part p {
+    color: #fff;
+}
+
+.larg-text1 {
+    color: #E76F51;
+    font-family: poppins;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.first-part p {}
+
+.btn,
+.by-now {
+    background: #E76F51;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.by-now img {
+    width: 25px;
+}
+
+.hero-image {
+    height: 90%;
+}
+
+.bike-image img {
+    width: 288px;
+    height: 243px;
+}
+
+.bike-image {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.image-fluid1,
+.image-fluid3 {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.bike-content h1 {
+    font-family: poppins;
+    font-size: 48px;
+    font-weight: 60;
+    color: #000;
+    line-height: 52px;
+}
+
+.bike-content p {
+    font-size: 14px;
+    color: #E76F51;
+    line-height: 21px;
+    text-align: center;
+}
+
+.card.h-100 {
+    box-shadow: none;
+    border: 1px solid #f3f8f3;
+}
+
+.fa.fa-star {
+    color: #E76F51;
+    padding: 5px;
+}
+
+.fa.fa-star-half-o {
+    color: #E76F51;
+    padding: 5px;
+}
+
+.card-title a {
+    text-decoration: none;
+}
+
+.card .img-jpg {
+    border-radius: 60%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.card-area {
+    background: #d2cfcf;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px #fff;
+}
+
+.card-img img {
+    height: 237px;
+    width: 350px;
+}
+
+mg {
+    width: 337;
+    height: 256;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 668px) {
+    .card-image img {
+        width: 100%;
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .hero-image-area {
+        margin: 20px;
+        margin-top: 20px;
+        margin-top: 40px;
+    }
+    .bike-content h1 {
+        font-family: poppins;
+        font-size: 25px;
+        font-weight: 600;
+        color: #000;
+        line-height: 24px;
+    }
+    .larg-text1 {
+        color: #E76F51;
+        font-family: poppins;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .content-area h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+    .first-part h1 {
+        font-size: 35px;
+        text-transform: uppercase;
+        font-family: poppins;
+        color: #fff;
+        font-weight: 600;
+    }
+}
+
+.card-image img {
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 15px
+}
+
+.card img {
+    background: none;
+    height: 200px;
+    width: 200px;
+}
+
+.feature-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+
+/*--------------------Feature section----------------------*/
+
+.feature-left-image img {
+    width: 75px;
+    margin-top: 20px;
+    margin-left: 28px;
+}
+
+.feature-img-right img {
+    background: none !important;
+}
+
+
+/*--------------------------------------------------------------*/
+
+.fixed-image {
+    background: url(honda-cbr-main/images/bike.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.fixed-image h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.fixed-image p {
+    font-size: 22px;
+    text-align: justify;
+}
+
+.btn2 {
+    height: 40px;
+    width: 100px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #ffffff;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btn2:hover {
+    background-color: #fff;
+    color: yellowgreen;
+    transition: .03s;
+}
+
+.btn3 {
+    height: 40px;
+    width: 100px;
+    background: transparent#fff;
+    color: yellowgreen;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.btn3:hover {
+    background-color: rgb(168, 151, 151);
+    color: #fff;
+    border: none;
+    outline: navajowhite;
+    transition: .03s;
+}
+
+.content-area {
+    text-align: justify;
+}
+
+.content-area h1 {
+    text-align: center;
+}
+
+.question-left img {
+    height: 420px;
+    weidth: 300px;
+    padding: 50px;
+}
